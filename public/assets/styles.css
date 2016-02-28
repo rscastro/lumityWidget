@@ -1,0 +1,207 @@
+body {
+    padding-top: 65px;
+    font-size: 11px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  margin-left: 12px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.bigNum {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.headline {
+  font-family: anivers;
+  font-size: 15px;
+}
+
+form-control {
+  height: 100%;
+  border: 1px;
+  padding: 12px;
+}
+
+.styled-select select {
+  background: transparent;
+  padding: 5px;
+  font-size: 16px;
+  line-height: 1;
+  border: 1;
+  margin-left: 10px;
+
+  }
+
+input {
+  width: 100%
+}
+
+label {
+  font-size: larger;
+  margin-right: 10px;
+}
+
+.container {
+  text-align: center;
+}
+.navbar-inverse  {
+  background-color: #93C4D3;
+  border-color: #93C4D3;
+}
+
+.navbar-inverse .navbar-brand {
+  color: white;
+}
+
+.input-group {
+  margin-left: 4%;
+}
+
+.input-group-btn {
+  vertical-align: bottom;
+}
+
+.glyphicon {
+  font-size: 32px;
+  z-index: 20;
+  cursor: pointer;
+}
+
+.facebook-login {
+  display: block;
+  margin: 0 auto;
+}
+
+.glyphicon-search{
+  position: relative;
+}
+
+.current-location {
+  margin-top: 30px;
+}
+
+.current-location .glyphicon-star,
+.current-location .glyphicon-star-empty {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 22px;
+  vertical-align: text-bottom;
+}
+
+.glyphicon-menu-right {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  margin-top: -9px;
+}
+
+.toggleHeatButton {
+  width: auto;
+  margin-bottom: 10px;
+}
+
+#pac-input {
+  width: 60%;
+  margin-top: 10px;
+}
+
+.map-holder {
+  max-width: 100%;
+  height: 350px;
+  margin: 0 auto;
+  background-color: #FCFCFC;
+  position: relative;
+  border-radius: 2px;
+}
+
+div .map-holder {
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
+
+.map-holder p {
+  position: absolute;
+  width: 84px;
+  height: 22px;
+  left: 50%;
+  top: 50%;
+  margin: -11px auto 0 -42px;
+  font-size: 20px;
+  color: #969FA8;
+}
+
+.btn-primary {
+  margin-top: 10px;
+  background-color: #93C4D3;
+  border-color: #93C4D3;
+}
+
+.list-group {
+  padding: 0 15px;
+  margin-top: 50px;
+}
+
+.list-group-item {
+  position: relative;
+  padding: 10px 20px;
+}
+
+a.list-group-item {
+  cursor: pointer;
+}
+
+a.list-group-item:hover {
+  background-color: #F7FBFF;
+}
+
+a.active-location {
+  background-color: #EEF6FF;
+}
+
+a.active-location:hover {
+  background-color: #EBF3FC;
+}
+
+a.list-group-item span.createdAt {
+  display: block;
+  color: #969FA8;
+  z-index: -1;
+}
+
+.navbar-inverse .navbar-brand:hover {
+  color: #2E6DA4;
+
+}
+
+#save-location {
+  display: inline;
+  margin: 10px auto;
+  line-height: 1.4;
+}
+
+#geocoding_form {
+  margin: 20px auto 20px;
+}
+
+#address {
+  border-radius: 3px;
+}
+
+#map {
+  max-width: 100%;
+  height: 400px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    padding-top: 85px;
+  }
+}
